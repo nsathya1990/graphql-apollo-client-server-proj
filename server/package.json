@@ -1,0 +1,24 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sathyapriyan Chinnathangam Nadar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-graphql": "^0.12.0",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.13.1",
+    "mysql2": "^3.18.2",
+    "nodemailer": "^8.0.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.5"
+  }
+}
