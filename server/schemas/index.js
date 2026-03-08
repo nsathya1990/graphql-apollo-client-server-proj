@@ -9,7 +9,7 @@ const {
 
 const userData = require('../MOCK_DATA.json');
 
-const UserType = require('./TypeDefs/UserType');
+const UserType = require('./type-defs/UserType');
 
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
