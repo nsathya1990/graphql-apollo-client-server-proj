@@ -5,7 +5,12 @@ const { graphqlHTTP } = require('express-graphql');
 const schema = require('./schemas/index');
 const cors = require('cors');
 
-app.use(cors());
+app.use(
+  cors({
+    origin: 'http://localhost:5173',
+    credentials: true,
+  }),
+);
 app.use(express.json());
 app.use(
   '/graphql',
